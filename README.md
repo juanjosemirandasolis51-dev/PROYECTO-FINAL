@@ -34,3 +34,9 @@ Dentro de backend ejecutar gradlew test
 - RendimientoTest: mide el tiempo de la cola propia y del HashMap contra recorrer un ArrayList
 
 Los logs quedan en backend/logs/Subastas.log
+
+
+## Comentarios
+
+En el proyecto se uso IA en la parte del frontend y en el video explicativo 
+
