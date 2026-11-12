@@ -1,0 +1,4 @@
+const CONFIG = {
+  API_BASE: '',
+  INTERVALO_ACTUALIZACION_MS: 3000
+};

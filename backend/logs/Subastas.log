@@ -1,0 +1,167 @@
+2026-11-11 22:10:44 [main] INFO  com.example.subastas.SubastasApplication - Starting SubastasApplication using Java 21.0.12.1 with PID 8676 (C:\Users\sanba\OneDrive\Escritorio\Estructura Datos y Algoritmos\proyecto_final\backend\build\classes\java\main started by sanba in C:\Users\sanba\OneDrive\Escritorio\Estructura Datos y Algoritmos\proyecto_final\backend)
+2026-11-11 22:10:44 [main] DEBUG com.example.subastas.SubastasApplication - Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-11 22:10:44 [main] INFO  com.example.subastas.SubastasApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-11 22:10:45 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-11 22:10:45 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2026-11-11 22:10:45 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-11-11 22:10:45 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-11 22:10:45 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-11 22:10:45 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-11 22:10:45 [main] INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1362 ms
+2026-11-11 22:10:46 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-11 22:10:46 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-11 22:10:48 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-11 22:10:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-11 22:10:48 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54687fd0
+2026-11-11 22:10:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-11 22:10:49 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/subastas]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: subastas/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-11 22:10:53 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-11 22:10:53 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-11 22:10:53 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-11 22:10:54 [main] INFO  com.example.subastas.Service.UsuarioService - Se creo el usuario administrador admin@subastas.com
+2026-11-11 22:10:54 [main] INFO  com.example.subastas.Service.UsuarioService - Usuarios cargados en memoria: 1
+2026-11-11 22:10:54 [main] INFO  com.example.subastas.Service.SubastaService - Subastas cargadas en memoria: 0 activas: 0 en 8 ms
+2026-11-11 22:10:54 [main] INFO  org.springframework.boot.webmvc.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: URL [file:../frontend/index.html]
+2026-11-11 22:10:55 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-11-11 22:10:55 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-11-11 22:10:55 [main] INFO  com.example.subastas.SubastasApplication - Started SubastasApplication in 11.487 seconds (process running for 12.221)
+2026-11-11 22:11:19 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-11 22:11:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-11 22:11:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-11-11 22:11:20 [http-nio-8080-exec-9] INFO  com.example.subastas.Service.UsuarioService - Usuario registrado ana@test.com con id 2
+2026-11-11 22:11:21 [http-nio-8080-exec-1] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 409 Ese correo ya esta registrado
+2026-11-11 22:11:22 [http-nio-8080-exec-4] INFO  com.example.subastas.Service.UsuarioService - Usuario registrado beto@test.com con id 3
+2026-11-11 22:11:23 [http-nio-8080-exec-3] INFO  com.example.subastas.Service.UsuarioService - Usuario registrado caro@test.com con id 4
+2026-11-11 22:11:23 [http-nio-8080-exec-2] WARN  com.example.subastas.Service.UsuarioService - Intento de login fallido con el correo ana@test.com
+2026-11-11 22:11:23 [http-nio-8080-exec-2] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 401 Correo o contrasena incorrectos
+2026-11-11 22:11:24 [http-nio-8080-exec-10] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de ana@test.com
+2026-11-11 22:11:24 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 0 en 49 microsegundos
+2026-11-11 22:11:25 [http-nio-8080-exec-4] INFO  com.example.subastas.Service.SubastaService - Producto publicado Bicicleta rin 26 id 1 por ana@test.com cierra 2026-11-11T22:13:25.234749100
+2026-11-11 22:11:25 [http-nio-8080-exec-7] INFO  com.example.subastas.Service.SubastaService - Producto publicado Lampara de escritorio id 2 por ana@test.com cierra 2026-11-11T22:41:25.468307300
+2026-11-11 22:11:25 [http-nio-8080-exec-1] INFO  com.example.subastas.Service.SubastaService - Producto publicado Guitarra acustica id 3 por ana@test.com cierra 2026-11-11T22:26:25.669731
+2026-11-11 22:11:26 [http-nio-8080-exec-1] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de beto@test.com
+2026-11-11 22:11:26 [http-nio-8080-exec-3] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 3 en 276 microsegundos
+2026-11-11 22:11:28 [http-nio-8080-exec-2] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro BICI encontro 1 en 176 microsegundos
+2026-11-11 22:11:29 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro BICI encontro 1 en 156 microsegundos
+2026-11-11 22:11:31 [http-nio-8080-exec-5] INFO  com.example.subastas.Service.SubastaService - Puja de beto@test.com por 250000.0 en el producto 1 procesada en 5.4583 ms
+2026-11-11 22:11:32 [http-nio-8080-exec-8] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 400 La puja debe ser mayor que la puja mas alta
+2026-11-11 22:11:34 [http-nio-8080-exec-2] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 403 No puedes pujar en tu propio producto
+2026-11-11 22:11:36 [http-nio-8080-exec-9] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de caro@test.com
+2026-11-11 22:11:36 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 3 en 137 microsegundos
+2026-11-11 22:11:37 [http-nio-8080-exec-9] INFO  com.example.subastas.Service.SubastaService - Puja de caro@test.com por 260000.0 en el producto 1 procesada en 4.7426 ms
+2026-11-11 22:11:40 [http-nio-8080-exec-8] INFO  com.example.subastas.Service.SubastaService - Puja de caro@test.com por 275000.0 en el producto 1 procesada en 31.6112 ms
+2026-11-11 22:11:45 [http-nio-8080-exec-2] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de admin@subastas.com
+2026-11-11 22:11:45 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 3 en 189 microsegundos
+2026-11-11 22:11:47 [http-nio-8080-exec-5] INFO  com.example.subastas.Service.SubastaService - El administrador admin@subastas.com cancelo la subasta 2
+2026-11-11 22:11:48 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 131 microsegundos
+2026-11-11 22:11:51 [http-nio-8080-exec-6] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 243 microsegundos
+2026-11-11 22:11:54 [http-nio-8080-exec-4] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 173 microsegundos
+2026-11-11 22:11:57 [http-nio-8080-exec-3] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 82 microsegundos
+2026-11-11 22:12:00 [http-nio-8080-exec-5] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 132 microsegundos
+2026-11-11 22:12:03 [http-nio-8080-exec-1] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 168 microsegundos
+2026-11-11 22:12:06 [http-nio-8080-exec-6] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 159 microsegundos
+2026-11-11 22:12:09 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 101 microsegundos
+2026-11-11 22:12:12 [http-nio-8080-exec-3] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 88 microsegundos
+2026-11-11 22:12:15 [http-nio-8080-exec-5] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 299 microsegundos
+2026-11-11 22:12:18 [http-nio-8080-exec-2] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 329 microsegundos
+2026-11-11 22:12:21 [http-nio-8080-exec-3] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 86 microsegundos
+2026-11-11 22:12:24 [http-nio-8080-exec-9] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 91 microsegundos
+2026-11-11 22:12:27 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 182 microsegundos
+2026-11-11 22:12:30 [http-nio-8080-exec-10] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 236 microsegundos
+2026-11-11 22:12:33 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 60 microsegundos
+2026-11-11 22:12:36 [http-nio-8080-exec-1] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 95 microsegundos
+2026-11-11 22:12:39 [http-nio-8080-exec-10] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 65 microsegundos
+2026-11-11 22:12:42 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 77 microsegundos
+2026-11-11 22:12:45 [http-nio-8080-exec-1] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 43 microsegundos
+2026-11-11 22:12:48 [http-nio-8080-exec-10] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 51 microsegundos
+2026-11-11 22:12:51 [http-nio-8080-exec-9] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 50 microsegundos
+2026-11-11 22:12:54 [http-nio-8080-exec-2] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 168 microsegundos
+2026-11-11 22:12:57 [http-nio-8080-exec-3] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 74 microsegundos
+2026-11-11 22:13:00 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 45 microsegundos
+2026-11-11 22:13:03 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 66 microsegundos
+2026-11-11 22:13:06 [http-nio-8080-exec-9] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 78 microsegundos
+2026-11-11 22:13:09 [http-nio-8080-exec-4] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 83 microsegundos
+2026-11-11 22:13:12 [http-nio-8080-exec-3] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 139 microsegundos
+2026-11-11 22:13:15 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 267 microsegundos
+2026-11-11 22:13:18 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 89 microsegundos
+2026-11-11 22:13:21 [http-nio-8080-exec-9] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 147 microsegundos
+2026-11-11 22:13:24 [http-nio-8080-exec-1] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 2 en 132 microsegundos
+2026-11-11 22:13:25 [scheduling-1] INFO  com.example.subastas.Service.SubastaService - Subasta 1 cerrada gano Caro con 275000.0
+2026-11-11 22:13:27 [http-nio-8080-exec-10] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 64 microsegundos
+2026-11-11 22:13:30 [http-nio-8080-exec-4] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 64 microsegundos
+2026-11-11 22:13:33 [http-nio-8080-exec-2] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 43 microsegundos
+2026-11-11 22:52:07 [main] INFO  com.example.subastas.SubastasApplication - Starting SubastasApplication using Java 21.0.12 with PID 19808 (C:\Users\user\Documents\UNIVERSIDAD\2DO SEMESTRE\ESTRUCTURA DE DATOS Y ALGORITMOS\PROYECTO FINAL\backend\build\classes\java\main started by user in C:\Users\user\Documents\UNIVERSIDAD\2DO SEMESTRE\ESTRUCTURA DE DATOS Y ALGORITMOS\PROYECTO FINAL\backend)
+2026-11-11 22:52:07 [main] DEBUG com.example.subastas.SubastasApplication - Running with Spring Boot v4.1.1, Spring v7.0.9
+2026-11-11 22:52:07 [main] INFO  com.example.subastas.SubastasApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-11 22:52:08 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-11 22:52:08 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2026-11-11 22:52:09 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-11-11 22:52:09 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-11-11 22:52:09 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-11 22:52:09 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-11 22:52:09 [main] INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1761 ms
+2026-11-11 22:52:09 [main] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-11 22:52:09 [main] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-11 22:52:10 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-11 22:52:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-11 22:52:11 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2fcc5f49
+2026-11-11 22:52:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-11 22:52:11 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/subastas]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.14
+	Default catalog/schema: subastas/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-11 22:52:12 [main] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-11 22:52:12 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-11 22:52:12 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-11 22:52:14 [main] INFO  com.example.subastas.Service.UsuarioService - Se creo el usuario administrador admin@subastas.com
+2026-11-11 22:52:14 [main] INFO  com.example.subastas.Service.UsuarioService - Usuarios cargados en memoria: 1
+2026-11-11 22:52:14 [main] INFO  com.example.subastas.Service.SubastaService - Subastas cargadas en memoria: 0 activas: 0 en 9 ms
+2026-11-11 22:52:14 [main] INFO  org.springframework.boot.webmvc.autoconfigure.WelcomePageHandlerMapping - Adding welcome page: URL [file:../frontend/index.html]
+2026-11-11 22:52:14 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-11-11 22:52:14 [main] INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-11-11 22:52:14 [main] INFO  com.example.subastas.SubastasApplication - Started SubastasApplication in 7.9 seconds (process running for 8.963)
+2026-11-11 22:52:15 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-11 22:52:15 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-11 22:52:15 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-11-11 22:52:20 [http-nio-8080-exec-3] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 401 Debes iniciar sesion
+2026-11-11 22:52:29 [http-nio-8080-exec-5] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de admin@subastas.com
+2026-11-11 22:54:01 [http-nio-8080-exec-1] INFO  com.example.subastas.Service.UsuarioService - Usuario registrado pablo@gmal.com con id 2
+2026-11-11 22:54:13 [http-nio-8080-exec-4] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de pablo@gmal.com
+2026-11-11 22:54:13 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 0 en 79 microsegundos
+2026-11-11 22:54:16 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 0 en 6 microsegundos
+2026-11-11 22:54:33 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 0 en 9 microsegundos
+2026-11-11 22:54:36 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 0 en 9 microsegundos
+2026-11-11 22:55:01 [http-nio-8080-exec-9] INFO  com.example.subastas.Service.SubastaService - Producto publicado closet id 1 por pablo@gmal.com cierra 2026-11-11T23:05:01.730323700
+2026-11-11 22:55:11 [http-nio-8080-exec-5] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 403 No puedes pujar en tu propio producto
+2026-11-11 22:55:41 [http-nio-8080-exec-7] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de admin@subastas.com
+2026-11-11 22:55:41 [http-nio-8080-exec-2] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 343 microsegundos
+2026-11-11 22:55:49 [http-nio-8080-exec-5] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 400 La primera puja debe ser igual o mayor al precio base
+2026-11-11 22:55:53 [http-nio-8080-exec-10] INFO  com.example.subastas.Service.SubastaService - Puja de admin@subastas.com por 50000.0 en el producto 1 procesada en 18.8846 ms
+2026-11-11 22:55:59 [http-nio-8080-exec-5] INFO  com.example.subastas.Service.SubastaService - Puja de admin@subastas.com por 80000.0 en el producto 1 procesada en 3.874301 ms
+2026-11-11 22:57:05 [http-nio-8080-exec-6] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 268 microsegundos
+2026-11-11 22:57:46 [http-nio-8080-exec-8] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 71 microsegundos
+2026-11-11 22:58:29 [http-nio-8080-exec-8] INFO  com.example.subastas.Service.UsuarioService - Usuario registrado d@gmail.com con id 3
+2026-11-11 22:58:37 [http-nio-8080-exec-8] INFO  com.example.subastas.Service.UsuarioService - Inicio de sesion de d@gmail.com
+2026-11-11 22:58:37 [http-nio-8080-exec-7] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 60 microsegundos
+2026-11-11 22:58:40 [http-nio-8080-exec-6] DEBUG com.example.subastas.Service.SubastaService - Busqueda de subastas con filtro null encontro 1 en 38 microsegundos
+2026-11-11 22:58:47 [http-nio-8080-exec-10] WARN  com.example.subastas.Excepcion.ManejadorErrores - Peticion rechazada 400 La puja debe ser mayor que la puja mas alta
+2026-11-11 22:58:54 [http-nio-8080-exec-7] INFO  com.example.subastas.Service.SubastaService - Puja de d@gmail.com por 80001.0 en el producto 1 procesada en 7.7442 ms

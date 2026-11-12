@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi perfil - Subastas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header id="encabezado" class="encabezado"></header>
+
+  <main class="contenedor">
+    <div class="titulo-pagina">
+      <h1>Mi perfil</h1>
+      <p id="datos-usuario"></p>
+    </div>
+    <p id="mensaje" class="mensaje" hidden></p>
+
+    <div class="columnas">
+      <section class="tarjeta">
+        <h2>Subastas que gane</h2>
+        <div class="tabla-contenedor">
+          <table>
+            <thead><tr><th>Producto</th><th class="numero">Precio final</th><th>Vendedor</th><th>Cerro</th></tr></thead>
+            <tbody id="ganadas"></tbody>
+          </table>
+        </div>
+        <p id="sin-ganadas" class="vacio" hidden>Todavia no has ganado ninguna subasta.</p>
+      </section>
+
+      <section class="tarjeta">
+        <h2>Mis productos publicados</h2>
+        <div class="tabla-contenedor">
+          <table>
+            <thead><tr><th>Producto</th><th>Estado</th><th class="numero">Precio final</th><th>Comprador</th></tr></thead>
+            <tbody id="vendidas"></tbody>
+          </table>
+        </div>
+        <p id="sin-vendidas" class="vacio" hidden>Todavia no has publicado productos.</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/perfil.js"></script>
+</body>
+</html>

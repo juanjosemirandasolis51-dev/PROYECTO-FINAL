@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crear cuenta - Subastas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="pagina-acceso">
+
+  <main class="tarjeta acceso">
+    <h1>Crear cuenta</h1>
+    <p class="subtitulo">Con la misma cuenta puedes comprar y vender</p>
+
+    <form id="form-registro" novalidate>
+      <label>Nombre
+        <input type="text" name="nombre" autocomplete="name" maxlength="100" required>
+      </label>
+      <label>Correo
+        <input type="email" name="correo" autocomplete="email" maxlength="150" required>
+      </label>
+      <label>Contraseña
+        <input type="password" name="contrasena" autocomplete="new-password" minlength="6" required>
+        <span class="ayuda">Minimo 6 caracteres</span>
+      </label>
+      <label>Repite la contraseña
+        <input type="password" name="confirmacion" autocomplete="new-password" required>
+      </label>
+      <p id="mensaje" class="mensaje" hidden></p>
+      <button type="submit" class="boton primario">Crear cuenta</button>
+    </form>
+
+    <p class="pie">Ya tienes cuenta? <a href="index.html">Inicia sesion</a></p>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/registro.js"></script>
+</body>
+</html>

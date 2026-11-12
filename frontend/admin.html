@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Administracion - Subastas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header id="encabezado" class="encabezado"></header>
+
+  <main class="contenedor">
+    <div class="titulo-pagina">
+      <h1>Administracion</h1>
+      <p>Todas las subastas, en cualquier estado. Una subasta cancelada deja de recibir pujas.</p>
+    </div>
+    <p id="mensaje" class="mensaje" hidden></p>
+
+    <section class="tarjeta">
+      <div class="tabla-contenedor">
+        <table>
+          <thead>
+            <tr><th>#</th><th>Producto</th><th>Vendedor</th><th>Estado</th>
+                <th class="numero">Precio actual</th><th>Termina en</th><th></th></tr>
+          </thead>
+          <tbody id="tabla"></tbody>
+        </table>
+      </div>
+      <p id="vacio" class="vacio" hidden>No hay subastas.</p>
+    </section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

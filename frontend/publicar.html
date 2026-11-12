@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publicar producto - Subastas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header id="encabezado" class="encabezado"></header>
+
+  <main class="contenedor">
+    <div class="titulo-pagina">
+      <h1>Publicar un producto</h1>
+      <p>La subasta empieza apenas la publiques y se cierra sola cuando se acabe el tiempo.</p>
+    </div>
+
+    <div class="tarjeta" style="max-width: 560px">
+      <form id="form-publicar" novalidate>
+        <label>Nombre del producto
+          <input type="text" name="nombre" maxlength="150" required>
+        </label>
+        <label>Descripcion
+          <textarea name="descripcion" required></textarea>
+        </label>
+        <label>Precio base (COP)
+          <input type="number" name="precioBase" min="1" step="1" inputmode="numeric" required>
+          <span class="ayuda">La primera puja puede ser igual a este valor.</span>
+        </label>
+        <label>Duracion (minutos)
+          <input type="number" name="duracionMinutos" min="1" step="1" inputmode="numeric" value="10" required>
+        </label>
+        <p id="mensaje" class="mensaje" hidden></p>
+        <button type="submit" class="boton primario">Publicar</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/publicar.js"></script>
+</body>
+</html>

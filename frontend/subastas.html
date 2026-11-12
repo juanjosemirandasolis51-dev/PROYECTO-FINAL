@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subastas activas - Subastas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header id="encabezado" class="encabezado"></header>
+
+  <main class="contenedor">
+    <div class="titulo-pagina">
+      <h1>Subastas activas</h1>
+      <p>Los precios y tiempos se actualizan solos cada pocos segundos.</p>
+    </div>
+
+    <label class="buscador">Buscar por nombre
+      <input type="search" id="buscador" placeholder="Ej: bicicleta" autocomplete="off">
+    </label>
+
+    <p id="mensaje" class="mensaje" hidden></p>
+    <div id="lista" class="rejilla" aria-live="polite"></div>
+    <p id="vacio" class="vacio" hidden></p>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/subastas.js"></script>
+</body>
+</html>
